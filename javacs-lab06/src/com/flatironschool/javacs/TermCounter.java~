@@ -21,7 +21,7 @@ public class TermCounter {
 	
 	private Map<String, Integer> map;
 	private String label;
-	private int size = 0;
+	private int size;
 	
 	public TermCounter(String label) {
 		this.label = label;
